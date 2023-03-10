@@ -109,8 +109,48 @@ section{
    margin-top: 60px;
 }
 
-#sessao-bemVindo::after{
+#sessao-bemVindo::after, #sessao-sobre::after{
    content: "";
    display: block;
    clear: both;
+   margin-bottom: 6vh;
+}
+
+.sessao-miniBanner{
+   width: 18vw;
+   height: 36vh;
+   background-image: url('../imagens/banner3.jpg');
+   background-position: center;
+   background-size: cover;
+   float: left;
+}
+
+.sessao-descricao{
+   display: block;
+   padding-right: 30px;
+}
+.sessao-descricao p{
+   line-height: 2;
+   font-size: 16px;
+   margin-bottom: 20px;
+   margin-left: 22vw;
+}
+
+.sessao-bemVindo-btn {
+  background-color: #006599;
+  border: none;
+  width: 15vh;
+  padding: 1%;
+  margin-left: 4vw;
+  transition:ease 0.5s;
+}
+.sessao-bemVindo-btn a{
+   color: #fff;
+}
+.sessao-bemVindo-btn:hover{
+   background-color: rgb(0, 0, 0,0.40);
+}
+
+footer{
+   text-align: center;
 }
