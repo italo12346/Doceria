@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagens/stand.png">
     <link rel="stylesheet" href="../css/style.css">
     <title>Doceria</title>
 </head>
@@ -17,7 +18,7 @@
                 <h1>Doceria</h1>
                 <nav>
                     <ul>
-                        <li><a href="#sessao-bemvindo">Bem vindo</a></li>
+                        <li><a href="#sessao-bemVindo">Bem vindo</a></li>
                         <li><a href="#sessao-sobre">Sobre nós</a></li>
                         <li><a href="#sessao-doces1">Doces 1</a></li>
                         <li><a href="#sessao-doces2">Doces 2</a></li>
@@ -26,8 +27,109 @@
                     </ul>
                 </nav>
             </div>
-            <div class="conteudo"></div>
         </div>
+        <div class="conteudo">
+            <main>
+                <section id="sessao-bemVindo">
+                    <div class="banner"></div>
+                    <div class="sessao-bemVindo-content">
+                        <h1>Seja bem vindo a Doceria</h1>
+                        <div class="sessao-mini-banner"></div>
+                        <div class="sessao-descricao">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis! Voluptatum
+                                inventore enim sed laboriosam,
+                                voluptates optio cumque ipsum maiores magni eveniet! Vitae dolorem eum, repudiandae
+                                accusamus facilis ex ratione!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis! Voluptatum
+                                inventore enim sed laboriosam,
+                                voluptates optio cumque ipsum maiores magni eveniet! Vitae dolorem eum, repudiandae
+                                accusamus facilis ex ratione!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis! Voluptatum
+                                inventore enim sed laboriosam,
+                                voluptates optio cumque ipsum maiores magni eveniet! Vitae dolorem eum, repudiandae
+                                accusamus facilis ex ratione!
+                            </p>
+                            <input class="sessao-bemVindo-btn" type="button" value="Leia mais">
+                        </div>
+                    </div>
+                </section>
+                <section id="sessao-sobre">
+                    <div class="sessao-content">
+                        <h1>Sobre nós</h1>
+                        <div class="sessao-mini-banner"></div>
+                        <div class="sessao-descricao">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis! Voluptatum
+                                inventore enim sed laboriosam,
+                                voluptates optio cumque ipsum maiores magni eveniet! Vitae dolorem eum, repudiandae
+                                accusamus facilis ex ratione!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis! Voluptatum
+                                inventore enim sed laboriosam,
+                                voluptates optio cumque ipsum maiores magni eveniet! Vitae dolorem eum, repudiandae
+                                accusamus facilis ex ratione!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis! Voluptatum
+                                inventore enim sed laboriosam,
+                                voluptates optio cumque ipsum maiores magni eveniet! Vitae dolorem eum, repudiandae
+                                accusamus facilis ex ratione!
+                            </p>
+                    </div>
+                </section>
+                <section id="sessao-doces1">
+                    <h2>Doces 1</h2>
+                    <div class="doces1-imgs banner-galeria" id="img1"></div>
+                    <div class="doces1-imgs banner-galeria" id="img2"></div>
+                    <div class="doces1-imgs banner-galeria" id="img3"></div>
+                    <div class="doces1-imgs banner-galeria" id="img4"></div>
+                    <div class="doces1-imgs banner-galeria" id="img5"></div>
+                </section>
+                <section id="sessao-doces2">
+                    <h2>Doces 2</h2>
+                    <div class="doces2-imgs banner-galeria" id="img6"></div>
+                    <div class="doces2-imgs banner-galeria" id="img7"></div>
+                    <div class="doces2-imgs banner-galeria" id="img8"></div>
+                </section>
+                <section id="sessao-doces3">
+                    <h2>Doces 3</h2>
+                    <div class="doces3-imgs banner-galeria" id="img9"></div>
+                    <div class="doces3-imgs banner-galeria" id="img10"></div>
+                    <div class="doces3-imgs banner-galeria" id="img11"></div>
+                    <div class="doces3-imgs banner-galeria" id="img12"></div>
+                </section>
+                <section id="sessao-contato">
+                    <form id="form-contato">
+                        <h1>CONTATO</h1>
+                        <form action="https://formsubmit.co/italo.souza@academico.ifpb.edu.br" method="POST">
+                            <div class="input-group">
+                                <label for="nome" class="field-label">Nome</label>
+                                <input type="text" name="Nome" class="field" id="nome" placeholder="Digite seu Nome" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="email" class="field-label">E-mail</label>
+                                <input type="text" name="Email" class="field" id="email" placeholder="Digite seu melhor e-mail" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="mensagem" class="field-label">Mensagem</label>
+                                <textarea class="field" name="Mensagem" id="mensagem" placeholder="Escreva o que desejar" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-submit">Enviar</button>
+                            <input type="hidden" name="_next" value="obrigado.html">
+                        </form>
+                </section>
+                <footer>
+                    <p>italo Sampaio @2023</p>
+                </footer>
+            </main>
+        </div>
+    </div>
     </div>
 
 </body>
