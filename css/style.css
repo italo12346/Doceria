@@ -1,14 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   font: inherit;
 }
 
-html{
-    font-family: 'Open-sans','sans-serif' ;
+html {
+   font-family: 'Open sans', 'sans-serif';
+   color: #373a3c;
+}
+
+a {
+   transition: 0.5;
+}
+
+/*---SIDEBAR---*/
+
+#sideBar {
+   position: fixed;
+   height: 100%;
+   width: 20vh;
+   background-color: #006599;
+   padding-top: 40px;
+}
+
+#sideBar h1 {
+   color: #fff;
+   font-size: 1.8rem;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+#sideBar a {
+   color: #fff;
+   font-size: 1rem;
+}
+
+#sideBar a:hover {
+   color: #f4ef5e;
+   font-size: 1rem;
+}
+
+#sideBar li {
+   padding: 20px;
+}
+
+.sideBar-container {
+   display: flex;
+   justify-content: center;
+}
+
+.logo-doceria {
+   display: block;
+   margin: auto;
+   width: 6vh;
+   height: 6vh;
+
 }
