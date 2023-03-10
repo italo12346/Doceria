@@ -63,60 +63,67 @@ a {
    height: 6vh;
 
 }
+
 /*------------------*/
 /*---CONTEUDO---*/
-.conteudo{
+.conteudo {
    position: absolute;
    left: 20vh;
    width: calc(100% - 20vh);
 }
-.conteudo h1, h2{
+
+.conteudo h1,
+h2 {
    color: #006599;
    margin-bottom: 30px;
 }
-.conteudo h1{
+
+.conteudo h1 {
    font-size: 1.8rem;
 }
-.conteudo h2{
+
+.conteudo h2 {
    font-size: 1.3rem;
 }
 
-section{
+section {
    padding-left: 3vh;
    padding-right: 2.5vh;
 }
 
 /*--- BEM VINDO ---*/
 
-#sessao-bemVindo{
+#sessao-bemVindo {
    padding-left: 0;
    padding-right: 0;
 }
-.sessao-bemVindo-content{
+
+.sessao-bemVindo-content {
    padding-left: 3vh;
    padding-right: 2.5vh;
 }
 
-#sessao-bemVindo .banner{
+#sessao-bemVindo .banner {
    height: 45vh;
    background-image: url('../imagens/banner2.jpg');
    background-position: center;
    background-size: cover;
-   box-shadow: +5px +5px +25px rgb(0, 0, 0,0.40);
+   box-shadow: +5px +5px +25px rgb(0, 0, 0, 0.40);
 }
 
-#sessao-bemVindo h1{
+#sessao-bemVindo h1 {
    margin-top: 60px;
 }
 
-#sessao-bemVindo::after, #sessao-sobre::after{
+#sessao-bemVindo::after,
+#sessao-sobre::after {
    content: "";
    display: block;
    clear: both;
    margin-bottom: 6vh;
 }
 
-.sessao-miniBanner{
+.sessao-miniBanner {
    width: 18vw;
    height: 36vh;
    background-image: url('../imagens/banner3.jpg');
@@ -125,11 +132,12 @@ section{
    float: left;
 }
 
-.sessao-descricao{
+.sessao-descricao {
    display: block;
    padding-right: 30px;
 }
-.sessao-descricao p{
+
+.sessao-descricao p {
    line-height: 2;
    font-size: 16px;
    margin-bottom: 20px;
@@ -137,20 +145,36 @@ section{
 }
 
 .sessao-bemVindo-btn {
-  background-color: #006599;
-  border: none;
-  width: 15vh;
-  padding: 1%;
-  margin-left: 4vw;
-  transition:ease 0.5s;
-}
-.sessao-bemVindo-btn a{
-   color: #fff;
-}
-.sessao-bemVindo-btn:hover{
-   background-color: rgb(0, 0, 0,0.40);
+   background-color: #006599;
+   border: none;
+   width: 15vh;
+   padding: 1%;
+   margin-left: 4vw;
+   transition: ease 0.5s;
 }
 
-footer{
+.sessao-bemVindo-btn a {
+   color: #fff;
+}
+
+.sessao-bemVindo-btn:hover {
+   background-color: rgb(0, 0, 0, 0.40);
+}
+
+/*---SESSAO SOBRE---*/
+
+#sessao-sobre .sessao-miniBanner {
+   float: right;
+   background-image: url('../imagens/banner4.jpg');
+   background-position: center;
+   background-size: cover;
+}
+
+
+#sessao-sobre .sessao-descricao p {
+   
+   margin-left: -0vw;
+}
+footer {
    text-align: center;
 }
