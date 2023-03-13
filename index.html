@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../imagens/stand.png">
+    <link rel="icon" href="./imagens/stand.png">
     <link rel="stylesheet" href="./css/style.css">
     <title>Doceria</title>
 </head>
@@ -14,7 +14,7 @@
     <div class="container">
         <div id="sideBar">
             <div class="sidebar-container">
-                <img class="logo-doceria" src="../imagens/stand.png" alt="Logo Doceria">
+                <img class="logo-doceria" src="./imagens/stand.png" alt="Logo Doceria">
                 <h1>Doceria</h1>
                 <nav>
                     <ul>
@@ -107,22 +107,22 @@
                 <section id="sessao-contato">
                     <form id="form-contato">
                         <h1>CONTATO</h1>
-                        <form action="https://formsubmit.co/italo.souza@academico.ifpb.edu.br" method="POST">
-                            <div class="input-group">
-                                <label for="nome" class="field-label">Nome</label>
-                                <input type="text" name="Nome" class="field" id="nome" placeholder="Digite seu Nome" required>
+                        <form target="_blank" action="https://formsubmit.co/italo.souza@academico.ifpb.edu.br" method="POST">
+                            <div class="form-group">
+                              <div class="form-row">
+                                <div class="col">
+                                  <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                                </div>
+                                <div class="col">
+                                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                                </div>
+                              </div>
                             </div>
-                            <div class="input-group">
-                                <label for="email" class="field-label">E-mail</label>
-                                <input type="text" name="Email" class="field" id="email" placeholder="Digite seu melhor e-mail" required>
+                            <div class="form-group">
+                              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
                             </div>
-                            <div class="input-group">
-                                <label for="mensagem" class="field-label">Mensagem</label>
-                                <textarea class="field" name="Mensagem" id="mensagem" placeholder="Escreva o que desejar" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-submit">Enviar</button>
-                            <input type="hidden" name="_next" value="obrigado.html">
-                        </form>
+                            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                          </form>
                 </section>
                 <footer>
                     <p>italo Sampaio @2023</p>
