@@ -5,32 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="./imagens/stand.png">
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
     <title>Doceria</title>
 </head>
 
 <body>
     <div class="container">
-        <div id="sideBar">
-            <div class="sidebar-container">
-                <img class="logo-doceria" src="./imagens/stand.png" alt="Logo Doceria">
-                <h1>Doceria</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#sessao-bemVindo">Bem vindo</a></li>
-                        <li><a href="#sessao-sobre">Sobre nós</a></li>
-                        <li><a href="#sessao-doces1">Doces 1</a></li>
-                        <li><a href="#sessao-doces2">Doces 2</a></li>
-                        <li><a href="#sessao-doces3">Doces 3</a></li>
-                        <li><a href="#sessao-contato">Entre em contato</a></li>
-                    </ul>
-                </nav>
+        <div class="btn-menu">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+        <div class="sideBar-active" id="sideBar-disable">
+            <div class="sideBar">
+                <div class="sidebar-container">
+                    <img class="logo-doceria" src="./imagens/stand.png" alt="Logo Doceria">
+                    <h1>Doceria</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#sessao-bemVindo">Bem vindo</a></li>
+                            <li><a href="#sessao-sobre">Sobre nós</a></li>
+                            <li><a href="#sessao-doces1">Doces 1</a></li>
+                            <li><a href="#sessao-doces2">Doces 2</a></li>
+                            <li><a href="#sessao-doces3">Doces 3</a></li>
+                            <li><a href="#sessao-contato">Entre em contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
         <div class="conteudo">
             <main>
                 <section id="sessao-bemVindo">
+
                     <div class="banner"></div>
                     <div class="sessao-bemVindo-content">
                         <h1>Seja bem vindo a Doceria</h1>
@@ -54,7 +64,7 @@
                                 voluptates optio cumque ipsum maiores magni eveniet! Vitae dolorem eum, repudiandae
                                 accusamus facilis ex ratione!
                             </p>
-                           <button type="submit" class="sessao-bemVindo-btn"><a href="#">Leia Mais</a></button>
+                            <button type="submit" class="sessao-bemVindo-btn"><a href="#">Leia Mais</a></button>
                         </div>
                     </div>
                 </section>
@@ -81,48 +91,54 @@
                                 voluptates optio cumque ipsum maiores magni eveniet! Vitae dolorem eum, repudiandae
                                 accusamus facilis ex ratione!
                             </p>
-                    </div>
+                        </div>
                 </section>
-                <section id="sessao-doces1">
-                    <h2>Doces 1</h2>
-                    <div class="doces1-imgs banner-galeria" id="img1"></div>
-                    <div class="doces1-imgs banner-galeria" id="img2"></div>
-                    <div class="doces1-imgs banner-galeria" id="img3"></div>
-                    <div class="doces1-imgs banner-galeria" id="img4"></div>
-                    <div class="doces1-imgs banner-galeria" id="img5"></div>
-                </section>
-                <section id="sessao-doces2">
-                    <h2>Doces 2</h2>
-                    <div class="doces2-imgs banner-galeria" id="img6"></div>
-                    <div class="doces2-imgs banner-galeria" id="img7"></div>
-                    <div class="doces2-imgs banner-galeria" id="img8"></div>
-                </section>
-                <section id="sessao-doces3">
-                    <h2>Doces 3</h2>
-                    <div class="doces3-imgs banner-galeria" id="img9"></div>
-                    <div class="doces3-imgs banner-galeria" id="img10"></div>
-                    <div class="doces3-imgs banner-galeria" id="img11"></div>
-                    <div class="doces3-imgs banner-galeria" id="img12"></div>
-                </section>
+                <div class="galeria">
+                    <section id="sessao-doces1">
+                        <h2>Doces 1</h2>
+                        <div class="doces1-imgs banner-galeria" id="img1"></div>
+                        <div class="doces1-imgs banner-galeria" id="img2"></div>
+                        <div class="doces1-imgs banner-galeria" id="img3"></div>
+                        <div class="doces1-imgs banner-galeria" id="img4"></div>
+                        <div class="doces1-imgs banner-galeria" id="img5"></div>
+                    </section>
+                    <section id="sessao-doces2">
+                        <h2>Doces 2</h2>
+                        <div class="doces2-imgs banner-galeria" id="img6"></div>
+                        <div class="doces2-imgs banner-galeria" id="img7"></div>
+                        <div class="doces2-imgs banner-galeria" id="img8"></div>
+                    </section>
+                    <section id="sessao-doces3">
+                        <h2>Doces 3</h2>
+                        <div class="doces3-imgs banner-galeria" id="img9"></div>
+                        <div class="doces3-imgs banner-galeria" id="img10"></div>
+                        <div class="doces3-imgs banner-galeria" id="img11"></div>
+                        <div class="doces3-imgs banner-galeria" id="img12"></div>
+                    </section>
+                </div>
                 <section id="sessao-contato">
                     <form id="form-contato">
                         <h1>CONTATO</h1>
-                        <form target="_blank" action="https://formsubmit.co/italo.souza@academico.ifpb.edu.br" method="POST">
+                        <form target="_blank" action="https://formsubmit.co/bdff2f6b57f5c17d27007c3ed98a12 07"
+                            method="POST">
                             <div class="form-group">
-                              <div class="form-row">
-                                <div class="col">
-                                  <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" name="name" class="form-control" placeholder="Full Name"
+                                            required>
+                                    </div>
+                                    <div class="col">
+                                        <input type="email" name="email" class="form-control"
+                                            placeholder="Email Address" required>
+                                    </div>
                                 </div>
-                                <div class="col">
-                                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                                </div>
-                              </div>
                             </div>
                             <div class="form-group">
-                              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                                <textarea placeholder="Your Message" class="form-control" name="message" rows="10"
+                                    required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
-                          </form>
+                            <button type="submit" class="btn-submit">Submit Form</button>
+                        </form>
                 </section>
                 <footer>
                     <p>italo Sampaio @2023</p>
