@@ -17,3 +17,6 @@ btnMenu.addEventListener("click", function () {
        
 });
 
+document.querySelector(".btn-submit").addEventListener('click',()=>{
+    window.alert("obrigado pelo contato")
+})
