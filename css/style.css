@@ -186,11 +186,9 @@ section {
    display: inline-block;
    height: 200px;
 }
-
 #sessao-doces1,
 #sessao-doces2,
 #sessao-doces3 {
-   flex-wrap: nowrap;
    padding-right: 50px;
    margin-bottom: 50px;
 }
@@ -273,6 +271,7 @@ section {
 }
 
 /*---CONTATO---*/
+
 #sessao-contato {
    display: flex;
    width: 100%;
@@ -280,8 +279,33 @@ section {
    flex-direction: column;
    align-items: center;
 }
+#sessao-contato input, textarea{
+   width: 25vh;
+   resize: none;
+   margin-bottom: 1px;
+   border:1.8px solid #006599;
+   padding: 3px;
+}
+input::placeholder, textarea::placeholder{
+   color: #006599;
+   padding: 2px;
+}
 
 
+
+.btn-enviar {
+   background-color: #006599;
+   border: none;
+   width: 100%;
+   padding: 1%;
+   
+   transition: ease 0.5s;
+   color: #fff;
+}
+
+.btn-enviar:hover{
+   background-color: rgb(0, 0, 0, 0.40);
+}
 footer {
    text-align: center;
 }
