@@ -344,7 +344,7 @@ footer {
 @media(max-width: 700px) {
    .sideBar-active {
       display: flex;
-      margin-left: -35rem;
+      margin-left: -55rem;
       transition: ease 0.5s;
    }
 
