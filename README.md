@@ -9,6 +9,7 @@ Simulação de um site de doces totalmente responsivo com o objetivo de aprimora
 
 # Mobile
 Simples e responsivo
-![Capturar](https://user-images.githubusercontent.com/78382234/225018984-1aa8becc-c876-4280-9b79-58dca9507c03.PNG) ![Capturar1](https://user-images.githubusercontent.com/78382234/225018990-a032b0b7-cbd0-4938-9a73-5808e9136fdb.PNG) ![Capturar2](https://user-images.githubusercontent.com/78382234/225018993-1d287db0-fb40-492b-98f1-ee7c14073cc9.PNG)
+
+| ![Capturar](https://user-images.githubusercontent.com/78382234/225018984-1aa8becc-c876-4280-9b79-58dca9507c03.PNG) | |![Capturar1](https://user-images.githubusercontent.com/78382234/225018990-a032b0b7-cbd0-4938-9a73-5808e9136fdb.PNG)| |![Capturar2](https://user-images.githubusercontent.com/78382234/225018993-1d287db0-fb40-492b-98f1-ee7c14073cc9.PNG)|
 
 
