@@ -2,7 +2,7 @@
 .sessao-galeria{
     position: relative;
     padding: 15px;
-    max-width: 100%;
+    max-width: 85%;
     margin: 0 auto;
 }
 .galeria-wrapper{
